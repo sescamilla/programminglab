@@ -4,6 +4,7 @@ wn = turtle.Screen()
 wn.title("project 2")
 
 alex = turtle.Turtle()
+alex.shape("turtle")
 
 def polygon(n):
     angle =  (360 / n)
