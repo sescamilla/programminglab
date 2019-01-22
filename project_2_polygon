@@ -1,1 +1,16 @@
+import turtle
 
+wn = turtle.Screen()
+wn.title("project 2")
+
+alex = turtle.Turtle()
+
+def polygon(n):
+    angle =  (360 / n)
+    for i in range(n):
+        alex.left(angle)
+        alex.forward(100)
+
+polygon(8)
+
+wn.mainloop()
