@@ -1,0 +1,14 @@
+# problem 3
+
+login_name = "jacob"            #predefined username & password
+login_password = "coconut"
+
+username = input("Enter username: ")
+if username != login_name:
+    print("Access denied: invalid username")
+else:
+    password = input("enter password: ")
+    if password != login_password:
+        print("Access denied: invalid password")
+    else:
+        print("access granted")
