@@ -12,6 +12,6 @@ def polygon(n):
         alex.left(angle)
         alex.forward(100)
 
-polygon(8)
+polygon(3)
 
 wn.mainloop()
