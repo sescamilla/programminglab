@@ -1,0 +1,26 @@
+def gcf(x,y):
+   nmbrs = [x,y]
+   largenmbr = max(nmbrs)
+   smallnmbr = min(nmbrs)
+   largefactorlist = []
+   smallfactorlist = []
+   comparelist = []
+   for i in range(largenmbr + 1):
+      if i == 0:
+         ()
+      elif largenmbr % i == 0:
+         largefactorlist.append(i)
+   for i in range(smallnmbr + 1):
+      if i == 0:
+         ()
+      elif smallnmbr % i == 0:
+         smallfactorlist.append(i)
+   for i in smallfactorlist:
+      if i not in largefactorlist:
+         ()
+      elif i in largefactorlist:
+         comparelist.append(i)
+   print(max(comparelist))
+gcf(24,8)
+gcf(12,9)
+gcf(35,14)
